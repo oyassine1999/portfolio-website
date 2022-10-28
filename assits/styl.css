@@ -85,4 +85,45 @@ right: -1000px;
     background-color: red;
     width: auto;
     height: 1000px;
+    
+}
+
+#section1{
+    height: 130px;
+    width: 50%;
+    background-color: white;
+    top: 0px;
+    right: 50px;
+    position: relative;
+    margin: auto;
+}
+
+#section2 {
+    height: 130px;
+    width: 50%;
+    background-color: white;
+    top: 0px;
+    right: 50px;
+    position: relative;
+    margin: auto;
+}
+
+#section3 {
+    height: 130px;
+    width: 50%;
+    background-color: white;
+    top: 0px;
+    right: 50px;
+    position: relative;
+    margin: auto;
+}
+
+#section4 {
+    height: 130px;
+    width: 50%;
+    background-color: white;
+    top: 0px;
+    right: 50px;
+    position: relative;
+    margin: auto;
 }
