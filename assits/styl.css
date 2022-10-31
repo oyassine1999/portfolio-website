@@ -10,6 +10,7 @@
     margin: 0 auto;
     height: 35%;
     background-color: gray;
+    border-radius: 10px;
 }
 
 #header h1{
@@ -41,6 +42,8 @@ ul#navoptions li{
     padding: 3px;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
+    background-color: rgb(156, 155, 155);
+    border-radius: 10px;
 }
 
 #section1{
@@ -51,15 +54,23 @@ ul#navoptions li{
 
 #body{
     width: 100%;
-    height: 545px;
+    height: 935px;
     margin: 0 auto;
     background-color: gray;
+    border-radius: 10px;
+    top: 30px;
+    position: relative;
 }
 
 #aboutme{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    height: 500px;
+    height: 430px;
+    border-radius: 30px;
+    background-color: rgb(104, 104, 104);
+    top: 25px;
+    position: relative;
+
 }
 
 #aboutme h1{
@@ -86,11 +97,51 @@ ul#navoptions li{
     height: 166px;
     top: 22px;
     position: relative;
-    background-color: rgb(84, 84, 84);
-    border-radius: 5px;
 }
 
 #paragraph p{
     font-size: 20px;
     text-align: center;
+}
+
+#work{
+        width: 90%;
+        margin: 0 auto;
+        height: 430px;
+        border-radius: 30px;
+        background-color: rgb(104, 104, 104);
+        top: 50px;
+        position: relative;
+}
+
+#work h2{
+    display: grid;
+    place-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}
+
+#icons{
+margin: 0 auto;
+width: 305px;
+height: 305px;
+position: relative;
+top: 45px;
+}
+
+#footer{
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    background-color: gray;
+    border-radius: 10px;
+    top: 50px;
+    position: relative;
+}
+
+#contactme{
+    display: grid;
+    place-items: center;
+    font-family: 'Merriweather', rifse;
+    color: rgb(47, 47, 47);
 }
