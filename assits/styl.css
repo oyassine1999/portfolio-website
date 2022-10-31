@@ -145,3 +145,27 @@ top: 45px;
     font-family: 'Merriweather', rifse;
     color: rgb(47, 47, 47);
 }
+
+#contactinfo{
+    margin: 0 auto;
+    height: 50%;
+    position: relative;
+}
+
+#contactinfo ul{
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+#contactinfo ul li{
+    display: inline;
+    padding: 5px;
+    margin: 0 auto;
+    background-color:rgb(104, 104, 104) ;
+    border-radius: 100px;
+    
+}
